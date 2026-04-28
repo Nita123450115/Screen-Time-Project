@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screen Time Awareness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>How much of your life do you spend on your phone?</h1>
+    <p>Learn how your screen habits impact your life.</p>
+    <button id="cta-button">Check Your Screen Time</button>
+  </header>
+  <script src="script.js"></script>
+</body>
+</html>

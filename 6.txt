@@ -1,0 +1,6 @@
+<h1>Effects of High Screen Time</h1>
+<ul>
+  <li>Sleep problems</li>
+  <li>Reduced focus</li>
+  <li>Increased stress</li>
+</ul>

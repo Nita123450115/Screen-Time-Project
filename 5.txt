@@ -1,0 +1,13 @@
+document.getElementById('calculate-btn').addEventListener('click', () => {
+  const hours = parseFloat(document.getElementById('hours-per-day').value);
+  const days = (hours * 365) / 24;
+  const result = document.getElementById('result');
+
+  if (isNaN(hours) || hours < 0) {
+    result.textContent = 'Please enter a valid number.';
+  } else {
+    result.innerHTML = `You spend approximately <strong>${days.toFixed(
+      2
+    )}</strong> days per year on your phone.`;
+  }
+});

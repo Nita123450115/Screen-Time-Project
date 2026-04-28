@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Screen Time Calculator</title>
+</head>
+<body>
+  <h1>Calculate Your Screen Time</h1>
+  <input type="number" id="hours-per-day" placeholder="Hours per day">
+  <button id="calculate-btn">Calculate</button>
+  <div id="result"></div>
+  <script src="script.js"></script>
+</body>
+</html>

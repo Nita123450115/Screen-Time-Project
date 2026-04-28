@@ -1,0 +1,17 @@
+<form>
+  <label>Before:</label>
+  <input type="number" placeholder="Enter hours per day" id="before">
+  <label>After:</label>
+  <input type="number" placeholder="Enter new hours per day" id="after">
+  <button id="compare-btn">Compare</button>
+</form>
+<div id="challenge-result"></div>
+<script>
+  document.getElementById('compare-btn').addEventListener('click', () => {
+    const before = parseFloat(document.getElementById('before').value);
+    const after = parseFloat(document.getElementById('after').value);
+    const difference = before - after;
+
+    document.getElementById('challenge-result').textContent = `You reduced your screen time by ${difference} hours per day!`;
+  });
+</script>
